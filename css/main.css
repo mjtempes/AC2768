@@ -1,0 +1,145 @@
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+  text-color: #000000;
+  font-family: arial;
+  font-size: 14px;
+  margin: 0px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #D3D3D3;
+  /*background: linear-gradient(to right, #0062E6, #33AEFF);*/
+}
+
+.h2
+{
+  font: bold;
+}
+p
+{
+  font-weight: 400;
+  font-family: 'Roboto' , sans-serif;
+}
+
+i
+{
+  color: white;
+  font-size: 15px;
+}
+
+.sidebar
+{
+background-color: grey;
+height: 515px;
+}
+.content img
+{
+  justify-content: center;
+  border: 2px solid;
+  border-radius: 25px;
+  height: auto;
+  width: 300px;
+}
+.row
+{
+  margin-bottom: 0px;
+  /*padding: 25px;*/
+  color: navy;
+}
+.row-cols-1
+{
+  margin-bottom: 0px;
+  padding: 25px;
+}
+.col, .col-8
+{
+  margin-bottom: 0px;
+  /*padding-top: 25px;*/
+  color: black;
+}
+
+
+/* Social Media Icons */
+.fa 
+{
+  padding: 5px;
+  font-size: 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover 
+{
+	/*opacity: 0.7;*/
+}
+
+.fa-facebook 
+{
+  /*background: #3B5998;*/
+  color: white;
+}
+
+.fa-facebook:hover
+{
+  opacity: 0.7;
+  color: #3B5998;
+}
+.fa-twitter 
+{
+  /*background: #55ACEE;*/
+  color: white;
+}
+
+.fa-twitter:hover
+{
+  opacity: 0.7;
+  color: #55ACEE;
+}
+
+.fa-linkedin 
+{
+  /*background: #007bb5;*/
+  color: white;
+}
+
+.fa-linkedin:hover
+{
+  opacity: 0.7;
+  color: #007bb5;
+}
+
+.fa-youtube 
+{
+  /*background: #bb0000;*/
+  color: white;
+}
+
+.fa-youtube:hover
+{
+  opacity: 0.7;
+  color: #bb0000;
+}
+.fa-github 
+{
+  /*background: #bb0000;*/
+  color: white;
+}
+
+.fa-github:hover
+{
+  opacity: 0.7;
+  color: #f3f3f3;
+}
+
+/* Layout */
