@@ -10,7 +10,7 @@ body {
 }
 
 #page-content {
-  flex: 1 0 auto;
+  /*flex: 1 0 auto;*/
 }
 
 /* Other Classes for Page Styling */
@@ -35,11 +35,27 @@ i
   color: white;
   font-size: 15px;
 }
+li.skills
+{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
 
 .sidebar
 {
 background-color: grey;
 height: 515px;
+width: 200px;
 }
 .content img
 {
@@ -60,7 +76,7 @@ height: 515px;
   margin-bottom: 0px;
   padding: 25px;
 }
-.col, .col-8
+.col, .col-8, .col-12
 {
   margin-bottom: 0px;
   /*padding-top: 25px;*/
